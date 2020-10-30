@@ -8,22 +8,20 @@ function Cart(props) {
     const selectedOption = props.selected[feature];
 
     return (
-      <div>
-        <CartPart
-          key={featureHash}
-          featureHash={featureHash}
-          feature={feature}
-          selectedOption={selectedOption}
-        />
-      </div>
+      <CartPart
+        key={featureHash}
+        featureHash={featureHash}
+        feature={feature}
+        selectedOption={selectedOption}
+      />
     );
   });
 
   return (
-    <div>
+    <>
       {cart}
       <Total selected={props.selected} />
-    </div>
+    </>
   );
 }
 

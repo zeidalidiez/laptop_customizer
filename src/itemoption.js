@@ -1,6 +1,6 @@
 import React from "react";
 import slugify from "slugify";
-import USCurrencyFormat from './USCurrencyFormat';
+import USCurrencyFormat from "./USCurrencyFormat";
 
 function ItemOption(props) {
   const { itemHash, item, feature } = props;

@@ -1,5 +1,5 @@
 import React from "react";
-import USCurrencyFormat from './USCurrencyFormat';
+import USCurrencyFormat from "./USCurrencyFormat";
 
 function CartPart(props) {
   return (

@@ -1,6 +1,6 @@
-const USCurrencyFormat = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD'
-  });
+const USCurrencyFormat = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+});
 
-  export default USCurrencyFormat;
+export default USCurrencyFormat;
